@@ -3,13 +3,13 @@ Why you picked this section
 I chose the Installation and Getting Started guide for the following reasons:
 
 - Installation is the inital setup and a basic requirement to deploy an application or a service into action. 
-It is important we understand and adhere to the system requirements prior to deploying the application.
+It is important we understand and adhere to the system and other requirements prior to deploying the application.
 
-- The deployment guide documentation requires working with the development or QA team to understand the 
+- The deployment guide documentation requires working with the development or QA teams to understand the 
 recommended server configuration and seek clarifications, as needed.  
 
 From a documentation best practice perspective, we must ensure the steps to install an application is 
-documented accurately prior to providing the complexities of server configuration and deployment of components.
+documented accurately prior to providing the complexities of configuration and deployment of components.
 
 ***************************************************
 
@@ -22,7 +22,7 @@ I have made the following changes to improve the content:
 - Restructured headings for parallelism
 - Added and numbered steps for installing and running tests
 - Provided accurate steps to create files 
-- Ensure accuracy of naming conventions
+- Ensured accuracy of naming conventions
 - Added code snippets in table cell for readability 
 - Removed redundant content
 - Referred documentation about Python to understand concepts like assert and quiet mode (summarized reports) 
@@ -44,7 +44,7 @@ The following features make pytest easier to use:
 
 - you can run multiple tests in the directory and its subdirections. pytest requires that the test files 
 either begin with "test_" or end with "_test.py". This naming convention helps identify the test files
-and run them simultaneously. 
+and they are run simultaneously. 
 
 - pytest can group multiple test functions into classes. You can write a test to see how code should behave 
 and see it fail. Developers can, then, correct the code until the test passes.  
